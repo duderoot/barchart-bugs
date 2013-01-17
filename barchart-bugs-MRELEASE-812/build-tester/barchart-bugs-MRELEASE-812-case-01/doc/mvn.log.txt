@@ -1,0 +1,329 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building barchart-bugs-MRELEASE-812-case-01 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-release-plugin:2.3.2:prepare (default-cli) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] Verifying that there are no local modifications...
+[INFO]   ignoring changes on: **/pom.xml.backup, **/release.properties, **/pom.xml.branch, **/pom.xml.next, **/pom.xml.releaseBackup, **/pom.xml.tag
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git status
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Checking dependencies and plugins for snapshots ...
+What is the release version for "barchart-bugs-MRELEASE-812-case-01"? (com.barchart.build:barchart-bugs-MRELEASE-812-case-01) 1.0.1: : What is SCM release tag or label for "barchart-bugs-MRELEASE-812-case-01"? (com.barchart.build:barchart-bugs-MRELEASE-812-case-01) barchart-bugs-MRELEASE-812-case-01-1.0.1: : What is the new development version for "barchart-bugs-MRELEASE-812-case-01"? (com.barchart.build:barchart-bugs-MRELEASE-812-case-01) 1.0.2-SNAPSHOT: : [INFO] Transforming 'barchart-bugs-MRELEASE-812-case-01'...
+[INFO] Not generating release POMs
+[INFO] Executing goals 'clean verify'...
+[WARNING] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] [INFO] Scanning for projects...
+[INFO] [INFO]                                                                         
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] Building barchart-bugs-MRELEASE-812-case-01 1.0.1
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Deleting /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target
+[INFO] [INFO] 
+[INFO] [INFO] --- carrot-maven-scr-plugin:1.1.4:clean (clean) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] 
+[INFO] [INFO] delete /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/OSGI-INF/service-component
+[INFO] [WARNING] delete failed
+[INFO] [INFO] create /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/OSGI-INF/service-component
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] 
+[INFO] [INFO] --- groovy-maven-plugin:1.5:execute (provide-custom-properties) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] ### projectTimeLong=1358395460688
+[INFO] ### projectTimeFile=2013-01-16_22-04-20
+[INFO] ### projectTimeISO=2013-01-16T22:04:20.688-0600
+[INFO] ### projectTimeYear=2013
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] [INFO] Copying 1 resource
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Changes detected - recompiling the module!
+[INFO] [INFO] Compiling 1 source file to /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes
+[INFO] [INFO] 
+[INFO] [INFO] --- carrot-maven-scr-plugin:1.1.4:generate (generate) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] 
+[INFO] [INFO] excludedServices
+[INFO] [INFO] 	 service=java.lang.Cloneable
+[INFO] [INFO] 
+[INFO] [INFO] improperPackaging
+[INFO] [INFO] 	 packaging=pom
+[INFO] [INFO] 
+[INFO] [INFO] input classes = /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes
+[INFO] [INFO] 	 dependency = file:/work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/
+[INFO] [INFO] 
+[INFO] [INFO] output directory = /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/OSGI-INF/service-component
+[INFO] [INFO] 
+[INFO] [WARNING] did not find any active scr components
+[INFO] [INFO] 
+[INFO] [INFO] including empty descriptor = /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/OSGI-INF/service-component/null.xml
+[INFO] [INFO] 
+[INFO] [INFO] including descriptor resource = Resource {targetPath: OSGI-INF/service-component, filtering: false, FileSet {directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/OSGI-INF/service-component, PatternSet [includes: {}, excludes: {}]}}
+[INFO] [INFO] 
+[INFO] [INFO] combined classes count = 1
+[INFO] [INFO] descriptor class count = 0
+[INFO] [INFO] time, millis total     = 140
+[INFO] [INFO] rate, millis per descr = 0
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] [INFO] Copying 1 resource
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Changes detected - recompiling the module!
+[INFO] [INFO] Compiling 1 source file to /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/test-classes
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Surefire report directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/surefire-reports
+[INFO] [INFO] Using configured provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.barchart.build.TestDummy
+[INFO] 2003048
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+[INFO] 
+[INFO] Results :
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-bundle-plugin:2.3.7:bundle (default-bundle) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] BUILD SUCCESS
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] Total time: 4.801s
+[INFO] [INFO] Finished at: Wed Jan 16 22:04:22 CST 2013
+[INFO] [INFO] Final Memory: 18M/149M
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] Checking in modified POMs...
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git add -- pom.xml
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git status
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git commit --verbose -F /tmp/maven-scm-1996118200.commit pom.xml
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git symbolic-ref HEAD
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git push ssh://git@github.com/barchart/barchart-bugs.git master:master
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Tagging release with the label barchart-bugs-MRELEASE-812-case-01-1.0.1...
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git tag -F /tmp/maven-scm-1954521118.commit barchart-bugs-MRELEASE-812-case-01-1.0.1
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git push ssh://git@github.com/barchart/barchart-bugs.git barchart-bugs-MRELEASE-812-case-01-1.0.1
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git ls-files
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Transforming 'barchart-bugs-MRELEASE-812-case-01'...
+[INFO] Not removing release POMs
+[INFO] Checking in modified POMs...
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git add -- pom.xml
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git status
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git commit --verbose -F /tmp/maven-scm-1023352477.commit pom.xml
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git symbolic-ref HEAD
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01 && git push ssh://git@github.com/barchart/barchart-bugs.git master:master
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Release preparation complete.
+[INFO] 
+[INFO] --- maven-release-plugin:2.3.2:perform (default-cli) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] Checking out the project to perform the release ...
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target && git clone --branch barchart-bugs-MRELEASE-812-case-01-1.0.1 ssh://git@github.com/barchart/barchart-bugs.git /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target
+[INFO] Executing: /bin/sh -c cd /tmp && git ls-remote ssh://git@github.com/barchart/barchart-bugs.git
+[INFO] Working directory: /tmp
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout && git fetch ssh://git@github.com/barchart/barchart-bugs.git
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout && git checkout barchart-bugs-MRELEASE-812-case-01-1.0.1
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout
+[INFO] Executing: /bin/sh -c cd /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout && git ls-files
+[INFO] Working directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout
+[INFO] Invoking perform goals in directory /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01
+[INFO] Executing goals 'deploy'...
+[WARNING] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] [INFO] Scanning for projects...
+[INFO] [INFO]                                                                         
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] Building barchart-bugs-MRELEASE-812-case-01 1.0.1
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] 
+[INFO] [INFO] --- groovy-maven-plugin:1.5:execute (provide-custom-properties) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] ### projectTimeLong=1358395477611
+[INFO] ### projectTimeFile=2013-01-16_22-04-37
+[INFO] ### projectTimeISO=2013-01-16T22:04:37.611-0600
+[INFO] ### projectTimeYear=2013
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] [INFO] Copying 1 resource
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Changes detected - recompiling the module!
+[INFO] [INFO] Compiling 1 source file to /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes
+[INFO] [INFO] 
+[INFO] [INFO] --- carrot-maven-scr-plugin:1.1.4:generate (generate) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] 
+[INFO] [INFO] excludedServices
+[INFO] [INFO] 	 service=java.lang.Cloneable
+[INFO] [INFO] 
+[INFO] [INFO] improperPackaging
+[INFO] [INFO] 	 packaging=pom
+[INFO] [INFO] 
+[INFO] [INFO] input classes = /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes
+[INFO] [INFO] 	 dependency = file:/work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/
+[INFO] [INFO] 
+[INFO] [INFO] output directory = /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/OSGI-INF/service-component
+[INFO] [INFO] 
+[INFO] [WARNING] did not find any active scr components
+[INFO] [INFO] 
+[INFO] [INFO] including empty descriptor = /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/OSGI-INF/service-component/null.xml
+[INFO] [INFO] 
+[INFO] [INFO] including descriptor resource = Resource {targetPath: OSGI-INF/service-component, filtering: false, FileSet {directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/classes/OSGI-INF/service-component, PatternSet [includes: {}, excludes: {}]}}
+[INFO] [INFO] 
+[INFO] [INFO] combined classes count = 1
+[INFO] [INFO] descriptor class count = 0
+[INFO] [INFO] time, millis total     = 137
+[INFO] [INFO] rate, millis per descr = 0
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] [INFO] Copying 1 resource
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Changes detected - recompiling the module!
+[INFO] [INFO] Compiling 1 source file to /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/test-classes
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Surefire report directory: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/surefire-reports
+[INFO] [INFO] Using configured provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.barchart.build.TestDummy
+[INFO] 2003048
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+[INFO] 
+[INFO] Results :
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-bundle-plugin:2.3.7:bundle (default-bundle) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-source-plugin:2.2.1:jar-no-fork (attach-sources) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Building jar: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar
+[INFO] [INFO] 
+[INFO] [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) @ barchart-bugs-MRELEASE-812-case-01 >>>
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] 
+[INFO] [INFO] --- groovy-maven-plugin:1.5:execute (provide-custom-properties) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] ### projectTimeLong=1358395479438
+[INFO] ### projectTimeFile=2013-01-16_22-04-39
+[INFO] ### projectTimeISO=2013-01-16T22:04:39.438-0600
+[INFO] ### projectTimeYear=2013
+[INFO] [INFO] 
+[INFO] [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) @ barchart-bugs-MRELEASE-812-case-01 <<<
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [WARNING] Artifact com.barchart.build:barchart-bugs-MRELEASE-812-case-01:java-source:sources:1.0.1 already attached to project, ignoring duplicate
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-javadoc-plugin:2.9:jar (attach-javadocs) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Building jar: /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-gpg-plugin:1.4:sign (sign-artifacts) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-install-plugin:2.4:install (default-install) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Installing /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar to /home/user1/.m2/repository/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar
+[INFO] [INFO] Installing /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/pom.xml to /home/user1/.m2/repository/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.pom
+[INFO] [INFO] Installing /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar to /home/user1/.m2/repository/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar
+[INFO] [INFO] Installing /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar to /home/user1/.m2/repository/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar
+[INFO] [INFO] Installing /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar.asc to /home/user1/.m2/repository/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar.asc
+[INFO] [INFO] Installing /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1.pom.asc to /home/user1/.m2/repository/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.pom.asc
+[INFO] [INFO] Installing /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar.asc to /home/user1/.m2/repository/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar.asc
+[INFO] [INFO] Installing /work/git/barchart-bugs/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/checkout/barchart-bugs-MRELEASE-812/build-tester/barchart-bugs-MRELEASE-812-case-01/target/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar.asc to /home/user1/.m2/repository/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar.asc
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-bundle-plugin:2.3.7:install (default-install) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Installing com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar
+[INFO] [INFO] Writing OBR metadata
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar
+[INFO] 2/4 KB   
+[INFO] 4/4 KB   
+[INFO]          
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar (4 KB at 2.3 KB/sec)
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.pom
+[INFO] 2/2 KB   
+[INFO]          
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.pom (2 KB at 1.2 KB/sec)
+[INFO] Downloading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/maven-metadata.xml
+[INFO]          
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/maven-metadata.xml
+[INFO] 332/332 B   
+[INFO]             
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/maven-metadata.xml (332 B at 0.4 KB/sec)
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar
+[INFO] 2/2 KB      
+[INFO]          
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar (2 KB at 1.8 KB/sec)
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar
+[INFO] 2/23 KB   
+[INFO] 4/23 KB   
+[INFO] 6/23 KB   
+[INFO] 8/23 KB   
+[INFO] 10/23 KB   
+[INFO] 12/23 KB   
+[INFO] 14/23 KB   
+[INFO] 16/23 KB   
+[INFO] 18/23 KB   
+[INFO] 20/23 KB   
+[INFO] 22/23 KB   
+[INFO] 23/23 KB   
+[INFO]            
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar (23 KB at 22.8 KB/sec)
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar.asc
+[INFO] 198/198 B   
+[INFO]             
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.jar.asc (198 B at 0.2 KB/sec)
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.pom.asc
+[INFO] 198/198 B   
+[INFO]             
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1.pom.asc (198 B at 0.2 KB/sec)
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar.asc
+[INFO] 198/198 B   
+[INFO]             
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-sources.jar.asc (198 B at 0.2 KB/sec)
+[INFO] Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar.asc
+[INFO] 198/198 B   
+[INFO]             
+[INFO] Uploaded: https://oss.sonatype.org/service/local/staging/deploy/maven2/com/barchart/build/barchart-bugs-MRELEASE-812-case-01/1.0.1/barchart-bugs-MRELEASE-812-case-01-1.0.1-javadoc.jar.asc (198 B at 0.2 KB/sec)
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-bundle-plugin:2.3.7:deploy (default-deploy) @ barchart-bugs-MRELEASE-812-case-01 ---
+[INFO] [INFO] Remote OBR update disabled (enable with -DremoteOBR)
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] BUILD SUCCESS
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] Total time: 15.906s
+[INFO] [INFO] Finished at: Wed Jan 16 22:04:50 CST 2013
+[INFO] [INFO] Final Memory: 26M/307M
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] Cleaning up after release...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 35.914s
+[INFO] Finished at: Wed Jan 16 22:04:50 CST 2013
+[INFO] Final Memory: 9M/149M
+[INFO] ------------------------------------------------------------------------
