@@ -2,7 +2,7 @@
 
 	<echo message="basedir : ${basedir}" />
 
-	<property name="tag" value="carrot-archon-" />
+	<property name="tag" value="barchart-bugs-MRELEASE-812-module-01-1.0.0" />
 
 	<target name="git">
 		<exec executable="git">
